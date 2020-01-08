@@ -1,0 +1,5 @@
+find-screen-service-1/**/target/
+find-screen-service-2/**/target/
+maven-multi-modules-basic/**/target/
+
+

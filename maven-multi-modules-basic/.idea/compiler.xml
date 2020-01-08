@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="webapp-basic" />
+        <module name="submodule-2" />
+        <module name="referred-from-webapp-basic" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="find-scree-service-1" target="1.7" />
+      <module name="find-screen-1" target="1.5" />
+      <module name="find-screen-service-2" target="1.5" />
+      <module name="sub-module-2" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

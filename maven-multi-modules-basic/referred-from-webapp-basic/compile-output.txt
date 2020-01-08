@@ -1,0 +1,377 @@
+Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+Maven home: C:\Program Files\apache-maven-3.6.3\bin\..
+Java version: 1.7.0_80, vendor: Oracle Corporation, runtime: C:\Program Files\Java\jdk1.7.0_80\jre
+Default locale: en_US, platform encoding: Cp1252
+OS name: "windows 8.1", version: "6.3", arch: "amd64", family: "windows"
+[DEBUG] Created new class realm maven.api
+[DEBUG] Importing foreign packages into class realm maven.api
+[DEBUG]   Imported: javax.annotation.* < plexus.core
+[DEBUG]   Imported: javax.annotation.security.* < plexus.core
+[DEBUG]   Imported: javax.enterprise.inject.* < plexus.core
+[DEBUG]   Imported: javax.enterprise.util.* < plexus.core
+[DEBUG]   Imported: javax.inject.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.artifact < plexus.core
+[DEBUG]   Imported: org.apache.maven.classrealm < plexus.core
+[DEBUG]   Imported: org.apache.maven.cli < plexus.core
+[DEBUG]   Imported: org.apache.maven.configuration < plexus.core
+[DEBUG]   Imported: org.apache.maven.exception < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution.scope < plexus.core
+[DEBUG]   Imported: org.apache.maven.lifecycle < plexus.core
+[DEBUG]   Imported: org.apache.maven.model < plexus.core
+[DEBUG]   Imported: org.apache.maven.monitor < plexus.core
+[DEBUG]   Imported: org.apache.maven.plugin < plexus.core
+[DEBUG]   Imported: org.apache.maven.profiles < plexus.core
+[DEBUG]   Imported: org.apache.maven.project < plexus.core
+[DEBUG]   Imported: org.apache.maven.reporting < plexus.core
+[DEBUG]   Imported: org.apache.maven.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.rtinfo < plexus.core
+[DEBUG]   Imported: org.apache.maven.settings < plexus.core
+[DEBUG]   Imported: org.apache.maven.toolchain < plexus.core
+[DEBUG]   Imported: org.apache.maven.usability < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authentication < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authorization < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.events < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.observers < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.proxy < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.resource < plexus.core
+[DEBUG]   Imported: org.codehaus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.* < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.component < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.configuration < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.container < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.context < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.lifecycle < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.logging < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.personality < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.Xpp3Dom < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParser < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParserException < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlSerializer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.* < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.artifact < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.collection < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.deployment < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.graph < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.installation < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.internal.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.metadata < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.repository < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.resolution < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.spi < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.transfer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.version < plexus.core
+[DEBUG]   Imported: org.fusesource.jansi.* < plexus.core
+[DEBUG]   Imported: org.slf4j.* < plexus.core
+[DEBUG]   Imported: org.slf4j.event.* < plexus.core
+[DEBUG]   Imported: org.slf4j.helpers.* < plexus.core
+[DEBUG]   Imported: org.slf4j.spi.* < plexus.core
+[DEBUG] Populating class realm maven.api
+[INFO] Error stacktraces are turned on.
+[DEBUG] Message scheme: plain
+[DEBUG] Reading global settings from C:\Program Files\apache-maven-3.6.3\bin\..\conf\settings.xml
+[DEBUG] Reading user settings from C:\Users\gewin\.m2\settings.xml
+[DEBUG] Reading global toolchains from C:\Program Files\apache-maven-3.6.3\bin\..\conf\toolchains.xml
+[DEBUG] Reading user toolchains from C:\Users\gewin\.m2\toolchains.xml
+[DEBUG] Using local repository at C:\Users\gewin\.m2\repository
+[DEBUG] Using manager EnhancedLocalRepositoryManager with priority 10.0 for C:\Users\gewin\.m2\repository
+[INFO] Scanning for projects...
+[DEBUG] Extension realms for project com.maven.lab:referred-from-webapp-basic:jar:1.0-SNAPSHOT: (none)
+[DEBUG] Looking up lifecycle mappings for packaging jar from ClassRealm[plexus.core, parent: null]
+[DEBUG] Extension realms for project com.maven.lab:multi-modules-basic:pom:1.0-SNAPSHOT: (none)
+[DEBUG] Looking up lifecycle mappings for packaging pom from ClassRealm[plexus.core, parent: null]
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.maven.lab:referred-from-webapp-basic:jar:1.0-SNAPSHOT
+[WARNING] 'repositories.repository.layout' for java.net uses the unsupported value 'legacy', artifact resolution might fail. @ line 90, column 21
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[DEBUG] === REACTOR BUILD PLAN ================================================
+[DEBUG] Project: com.maven.lab:referred-from-webapp-basic:jar:1.0-SNAPSHOT
+[DEBUG] Tasks:   [compile]
+[DEBUG] Style:   Regular
+[DEBUG] =======================================================================
+[INFO] 
+[INFO] --------------< com.maven.lab:referred-from-webapp-basic >--------------
+[INFO] Building referred-from-webapp-basic 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Using transporter WagonTransporter with priority -1.0 for http://172.30.130.50:8081/artifactory/plugins-releases-local
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for http://172.30.130.50:8081/artifactory/plugins-releases-local
+[INFO] Downloading from qa4am2mlesg001.m2mqa.local3333224: http://172.30.130.50:8081/artifactory/plugins-releases-local/org/apache/maven/plugins/maven-compiler-plugin/3.1/maven-compiler-plugin-3.1.pom
+[DEBUG] Writing tracking file C:\Users\gewin\.m2\repository\org\apache\maven\plugins\maven-compiler-plugin\3.1\maven-compiler-plugin-3.1.pom.lastUpdated
+[DEBUG] Using transporter WagonTransporter with priority -1.0 for http://172.30.130.50:8081/artifactory/plugins-snapshot-local
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for http://172.30.130.50:8081/artifactory/plugins-snapshot-local
+[INFO] Downloading from snapshot123s: http://172.30.130.50:8081/artifactory/plugins-snapshot-local/org/apache/maven/plugins/maven-compiler-plugin/3.1/maven-compiler-plugin-3.1.pom
+[DEBUG] Writing tracking file C:\Users\gewin\.m2\repository\org\apache\maven\plugins\maven-compiler-plugin\3.1\maven-compiler-plugin-3.1.pom.lastUpdated
+[DEBUG] Using transporter WagonTransporter with priority -1.0 for http://172.30.130.50:8081/artifactory/libs-snapshots-local
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for http://172.30.130.50:8081/artifactory/libs-snapshots-local
+[INFO] Downloading from snapshot12s: http://172.30.130.50:8081/artifactory/libs-snapshots-local/org/apache/maven/plugins/maven-compiler-plugin/3.1/maven-compiler-plugin-3.1.pom
+[DEBUG] Writing tracking file C:\Users\gewin\.m2\repository\org\apache\maven\plugins\maven-compiler-plugin\3.1\maven-compiler-plugin-3.1.pom.lastUpdated
+[DEBUG] Using transporter WagonTransporter with priority -1.0 for https://repo.maven.apache.org/maven2
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for https://repo.maven.apache.org/maven2
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.1/maven-compiler-plugin-3.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.1/maven-compiler-plugin-3.1.pom (10 kB at 21 kB/s)
+[DEBUG] Writing tracking file C:\Users\gewin\.m2\repository\org\apache\maven\plugins\maven-compiler-plugin\3.1\_remote.repositories
+[DEBUG] Writing tracking file C:\Users\gewin\.m2\repository\org\apache\maven\plugins\maven-compiler-plugin\3.1\maven-compiler-plugin-3.1.pom.lastUpdated
+[DEBUG] Using transporter WagonTransporter with priority -1.0 for http://172.30.130.50:8081/artifactory/plugins-releases-local
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for http://172.30.130.50:8081/artifactory/plugins-releases-local
+[INFO] Downloading from qa4am2mlesg001.m2mqa.local3333224: http://172.30.130.50:8081/artifactory/plugins-releases-local/org/apache/maven/plugins/maven-compiler-plugin/3.1/maven-compiler-plugin-3.1.jar
+[DEBUG] Writing tracking file C:\Users\gewin\.m2\repository\org\apache\maven\plugins\maven-compiler-plugin\3.1\maven-compiler-plugin-3.1.jar.lastUpdated
+[DEBUG] Using transporter WagonTransporter with priority -1.0 for http://172.30.130.50:8081/artifactory/plugins-snapshot-local
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for http://172.30.130.50:8081/artifactory/plugins-snapshot-local
+[INFO] Downloading from snapshot123s: http://172.30.130.50:8081/artifactory/plugins-snapshot-local/org/apache/maven/plugins/maven-compiler-plugin/3.1/maven-compiler-plugin-3.1.jar
+[DEBUG] Writing tracking file C:\Users\gewin\.m2\repository\org\apache\maven\plugins\maven-compiler-plugin\3.1\maven-compiler-plugin-3.1.jar.lastUpdated
+[DEBUG] Using transporter WagonTransporter with priority -1.0 for http://172.30.130.50:8081/artifactory/libs-snapshots-local
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for http://172.30.130.50:8081/artifactory/libs-snapshots-local
+[INFO] Downloading from snapshot12s: http://172.30.130.50:8081/artifactory/libs-snapshots-local/org/apache/maven/plugins/maven-compiler-plugin/3.1/maven-compiler-plugin-3.1.jar
+[DEBUG] Writing tracking file C:\Users\gewin\.m2\repository\org\apache\maven\plugins\maven-compiler-plugin\3.1\maven-compiler-plugin-3.1.jar.lastUpdated
+[DEBUG] Using transporter WagonTransporter with priority -1.0 for https://repo.maven.apache.org/maven2
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for https://repo.maven.apache.org/maven2
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.1/maven-compiler-plugin-3.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.1/maven-compiler-plugin-3.1.jar (43 kB at 161 kB/s)
+[DEBUG] Writing tracking file C:\Users\gewin\.m2\repository\org\apache\maven\plugins\maven-compiler-plugin\3.1\_remote.repositories
+[DEBUG] Writing tracking file C:\Users\gewin\.m2\repository\org\apache\maven\plugins\maven-compiler-plugin\3.1\maven-compiler-plugin-3.1.jar.lastUpdated
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] === PROJECT BUILD PLAN ================================================
+[DEBUG] Project:       com.maven.lab:referred-from-webapp-basic:1.0-SNAPSHOT
+[DEBUG] Dependencies (collect): []
+[DEBUG] Dependencies (resolve): [compile]
+[DEBUG] Repositories (dependencies): [central (http://repo.maven.apache.org/maven2, default, releases), qa4am2mlesg001.m2mqa.local12 (http://172.30.130.50:8081/artifactory/libs-releases-local, default, releases+snapshots), qa4am2mlesg001.m2mqa.snapshots123 (http://172.30.130.50:8081/artifactory/libs-snapshots-local, default, releases+snapshots), qa4am2mlesg001.m2mqa.local9 (http://172.30.130.50:8081/artifactory/libs-releases-local, default, releases+snapshots), snapshots1111 (http://172.30.130.50:8081/artifactory/libs-snapshot-local, default, releases+snapshots), qa4am2mlesg001.m2mqa.local6 (http://172.30.130.50:8081/artifactory/ext-releases-local, default, releases+snapshots), qa4am2mlesg001.m2mqa.local7 (http://172.30.130.50:8081/artifactory/ext-qualcomm-releases-local, default, releases+snapshots), qa4am2mlesg001.m2mqa.local5 (http://172.30.130.50:8081/artifactory/ext-releases-local, default, releases+snapshots), qa4am2mlesg001.m2mqa.local12311 (http://172.30.130.50:8081/artifactory/libs-releases-local, default, releases+snapshots), qa4am2mlesg001.m2mqa.local.ext3322 (http://172.30.130.50:8081/artifactory/ext-releases-local, default, releases+snapshots), apache-maven-snapshots (http://people.apache.org/repo/m2-snapshot-repository, default, snapshots), java.net (http://download.java.net/maven/1, legacy, releases+snapshots)]
+[DEBUG] Repositories (plugins)     : [qa4am2mlesg001.m2mqa.local3333224 (http://172.30.130.50:8081/artifactory/plugins-releases-local, default, releases+snapshots), snapshot123s (http://172.30.130.50:8081/artifactory/plugins-snapshot-local, default, releases+snapshots), snapshot12s (http://172.30.130.50:8081/artifactory/libs-snapshots-local, default, releases+snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-resources-plugin:2.6:resources (default-resources)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <buildFilters default-value="${project.build.filters}"/>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <escapeString>${maven.resources.escapeString}</escapeString>
+  <escapeWindowsPaths default-value="true">${maven.resources.escapeWindowsPaths}</escapeWindowsPaths>
+  <includeEmptyDirs default-value="false">${maven.resources.includeEmptyDirs}</includeEmptyDirs>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <overwrite default-value="false">${maven.resources.overwrite}</overwrite>
+  <project default-value="${project}"/>
+  <resources default-value="${project.resources}"/>
+  <session default-value="${session}"/>
+  <supportMultiLineFiltering default-value="false">${maven.resources.supportMultiLineFiltering}</supportMultiLineFiltering>
+  <useBuildFilters default-value="true"/>
+  <useDefaultDelimiters default-value="true"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <basedir default-value="${basedir}"/>
+  <buildDirectory default-value="${project.build.directory}"/>
+  <classpathElements default-value="${project.compileClasspathElements}"/>
+  <compileSourceRoots default-value="${project.compileSourceRoots}"/>
+  <compilerId default-value="javac">${maven.compiler.compilerId}</compilerId>
+  <compilerReuseStrategy default-value="${reuseCreated}">${maven.compiler.compilerReuseStrategy}</compilerReuseStrategy>
+  <compilerVersion>${maven.compiler.compilerVersion}</compilerVersion>
+  <debug default-value="true">${maven.compiler.debug}</debug>
+  <debuglevel>${maven.compiler.debuglevel}</debuglevel>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <executable>${maven.compiler.executable}</executable>
+  <failOnError default-value="true">${maven.compiler.failOnError}</failOnError>
+  <forceJavacCompilerUse default-value="false">${maven.compiler.forceJavacCompilerUse}</forceJavacCompilerUse>
+  <fork default-value="false">${maven.compiler.fork}</fork>
+  <generatedSourcesDirectory default-value="${project.build.directory}/generated-sources/annotations"/>
+  <maxmem>${maven.compiler.maxmem}</maxmem>
+  <meminitial>${maven.compiler.meminitial}</meminitial>
+  <mojoExecution>${mojoExecution}</mojoExecution>
+  <optimize default-value="false">${maven.compiler.optimize}</optimize>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <projectArtifact default-value="${project.artifact}"/>
+  <showDeprecation default-value="false">${maven.compiler.showDeprecation}</showDeprecation>
+  <showWarnings default-value="false">${maven.compiler.showWarnings}</showWarnings>
+  <skipMain>${maven.main.skip}</skipMain>
+  <skipMultiThreadWarning default-value="false">${maven.compiler.skipMultiThreadWarning}</skipMultiThreadWarning>
+  <source default-value="1.5">${maven.compiler.source}</source>
+  <staleMillis default-value="0">${lastModGranularityMs}</staleMillis>
+  <target default-value="1.5">${maven.compiler.target}</target>
+  <useIncrementalCompilation default-value="true">${maven.compiler.useIncrementalCompilation}</useIncrementalCompilation>
+  <verbose default-value="false">${maven.compiler.verbose}</verbose>
+  <mavenSession default-value="${session}"/>
+  <session default-value="${session}"/>
+</configuration>
+[DEBUG] =======================================================================
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=900800, ConflictMarker.markTime=579600, ConflictMarker.nodeCount=3, ConflictIdSorter.graphTime=716200, ConflictIdSorter.topsortTime=712200, ConflictIdSorter.conflictIdCount=2, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=9749500, ConflictResolver.conflictItemCount=2, DefaultDependencyCollector.collectTime=19091700, DefaultDependencyCollector.transformTime=15021300}
+[DEBUG] com.maven.lab:referred-from-webapp-basic:jar:1.0-SNAPSHOT
+[DEBUG]    junit:junit:jar:4.0:test
+[DEBUG]    org.slf4j:slf4j-api:jar:1.7.25:compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ referred-from-webapp-basic ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=294400, ConflictMarker.markTime=135600, ConflictMarker.nodeCount=77, ConflictIdSorter.graphTime=293800, ConflictIdSorter.topsortTime=30500, ConflictIdSorter.conflictIdCount=26, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=2675100, ConflictResolver.conflictItemCount=74, DefaultDependencyCollector.collectTime=218798700, DefaultDependencyCollector.transformTime=3521400}
+[DEBUG] org.apache.maven.plugins:maven-resources-plugin:jar:2.6
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-project:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-artifact-manager:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-plugin-registry:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-core:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.6:compile
+[DEBUG]       org.apache.maven.reporting:maven-reporting-api:jar:2.0.6:compile
+[DEBUG]          org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-7:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-error-diagnostics:jar:2.0.6:compile
+[DEBUG]       commons-cli:commons-cli:jar:1.0:compile
+[DEBUG]       org.apache.maven:maven-plugin-descriptor:jar:2.0.6:compile
+[DEBUG]       org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4:compile
+[DEBUG]       classworlds:classworlds:jar:1.1:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-settings:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-model:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-monitor:jar:2.0.6:compile
+[DEBUG]    org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]       junit:junit:jar:3.8.1:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:2.0.5:compile
+[DEBUG]    org.apache.maven.shared:maven-filtering:jar:1.1:compile
+[DEBUG]       org.sonatype.plexus:plexus-build-api:jar:0.0.4:compile
+[DEBUG]    org.codehaus.plexus:plexus-interpolation:jar:1.13:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-resources-plugin:2.6
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-resources-plugin:2.6
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-resources-plugin:2.6
+[DEBUG]   Included: org.apache.maven.plugins:maven-resources-plugin:jar:2.6
+[DEBUG]   Included: org.apache.maven.reporting:maven-reporting-api:jar:2.0.6
+[DEBUG]   Included: org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-7
+[DEBUG]   Included: commons-cli:commons-cli:jar:1.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4
+[DEBUG]   Included: junit:junit:jar:3.8.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:2.0.5
+[DEBUG]   Included: org.apache.maven.shared:maven-filtering:jar:1.1
+[DEBUG]   Included: org.sonatype.plexus:plexus-build-api:jar:0.0.4
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.13
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-resources-plugin:2.6:resources from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-resources-plugin:2.6, parent: sun.misc.Launcher$AppClassLoader@3301f287]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-resources-plugin:2.6:resources' with basic configurator -->
+[DEBUG]   (f) buildFilters = []
+[DEBUG]   (f) escapeWindowsPaths = true
+[DEBUG]   (s) includeEmptyDirs = false
+[DEBUG]   (s) outputDirectory = C:\Users\gewin\Desktop\SandBox\maven-multi-modules-basic\referred-from-webapp-basic\target\classes
+[DEBUG]   (s) overwrite = false
+[DEBUG]   (f) project = MavenProject: com.maven.lab:referred-from-webapp-basic:1.0-SNAPSHOT @ C:\Users\gewin\Desktop\SandBox\maven-multi-modules-basic\referred-from-webapp-basic\pom.xml
+[DEBUG]   (s) resources = [Resource {targetPath: null, filtering: false, FileSet {directory: C:\Users\gewin\Desktop\SandBox\maven-multi-modules-basic\referred-from-webapp-basic\src\main\resources, PatternSet [includes: {}, excludes: {}]}}]
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@72afc3e8
+[DEBUG]   (f) supportMultiLineFiltering = false
+[DEBUG]   (f) useBuildFilters = true
+[DEBUG]   (s) useDefaultDelimiters = true
+[DEBUG] -- end configuration --
+[DEBUG] properties used {java.vendor=Oracle Corporation, env.SYSTEMROOT=C:\WINDOWS, env.USERDOMAIN_ROAMINGPROFILE=DESKTOP-PT9DF4T, sun.java.launcher=SUN_STANDARD, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, env.ONEDRIVE=C:\Users\gewin\OneDrive, env.PROMPT=$P$G, env.WDIR=C:\, os.name=Windows 8.1, sun.boot.class.path=C:\Program Files\Java\jdk1.7.0_80\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_80\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_80\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_80\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_80\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_80\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_80\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_80\jre\classes, env.COMPUTERNAME=DESKTOP-PT9DF4T, env.ALLUSERSPROFILE=C:\ProgramData, sun.desktop=windows, java.vm.specification.vendor=Oracle Corporation, java.runtime.version=1.7.0_80-b15, env.HOMEPATH=\Users\gewin, https.protocols=TLSv1,TLSv1.1,TLSv1.2, user.name=gewin, maven.build.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f), env.DRIVERDATA=C:\Windows\System32\Drivers\DriverData, env.NPHASE_DC_LOCATION=QA4B, env.PATH=C:\Program Files (x86)\RSA SecurID Token Common;C:\Program Files\RSA SecurID Token Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Users\gewin\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;c:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\tibco\ems\8.5\bin;C:\Program Files (x86)\dotnet\;C:\Program Files\dotnet\;C:\Program Files (x86)\dotnet\sdk;C:\Program Files\dotnet\sdk;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Java\jdk-11.0.5\bin;C:\Program Files\apache-maven-3.6.3\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files\PuTTY\;C:\Program Files\RSA SecurID Token Common\;C:\Users\gewin\.dotnet\tools;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.3\bin;, user.language=en, env.JVMCONFIG=\.mvn\jvm.config, env.WINDIR=C:\WINDOWS, sun.boot.library.path=C:\Program Files\Java\jdk1.7.0_80\jre\bin, classworlds.conf=C:\Program Files\apache-maven-3.6.3\bin\..\bin\m2.conf, java.version=1.7.0_80, env.NPHASE_LOG_DIR=C:\logs\nphase, env.PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 70 Stepping 1, GenuineIntel, user.timezone=, env.TEMP=C:\Users\gewin\AppData\Local\Temp, sun.arch.data.model=64, env.EXEC_DIR=C:\Users\gewin\Desktop\SandBox\maven-multi-modules-basic\referred-from-webapp-basic, sonar.host.url=http://m2mmcbamboo.verizon.com:8888/, java.endorsed.dirs=C:\Program Files\Java\jdk1.7.0_80\jre\lib\endorsed, sun.cpu.isalist=amd64, env.HOMEDRIVE=C:, sun.jnu.encoding=Cp1252, file.encoding.pkg=sun.io, env.VS110COMNTOOLS=C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\Tools\, env.SYSTEMDRIVE=C:, file.separator=\, java.specification.name=Java Platform API Specification, maven.conf=C:\Program Files\apache-maven-3.6.3\bin\../conf, env.JAVACMD=C:\Program Files\Java\jdk1.7.0_80\bin\java.exe, java.class.version=51.0, user.country=US, java.home=C:\Program Files\Java\jdk1.7.0_80\jre, env.APPDATA=C:\Users\gewin\AppData\Roaming, env.PUBLIC=C:\Users\Public, java.vm.info=mixed mode, env.OS=Windows_NT, os.version=6.3, env.NPHASE_MAGIC_BUS_ENV=DC3_DEV, env.=::=::\, path.separator=;, java.vm.version=24.80-b11, user.variant=, env.USERPROFILE=C:\Users\gewin, env.JAVA_HOME=C:\Program Files\Java\jdk1.7.0_80, java.awt.printerjob=sun.awt.windows.WPrinterJob, env.TMP=C:\Users\gewin\AppData\Local\Temp, env.PROGRAMFILES=C:\Program Files, sun.io.unicode.encoding=UnicodeLittle, awt.toolkit=sun.awt.windows.WToolkit, user.script=, user.home=C:\Users\gewin, env.COMMONPROGRAMFILES=C:\Program Files\Common Files, env.=EXITCODE=00000000, env.VS140COMNTOOLS=C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\Tools\, env.SESSIONNAME=Console, java.specification.vendor=Oracle Corporation, library.jansi.path=C:\Program Files\apache-maven-3.6.3\bin\..\lib\jansi-native, java.library.path=C:\Program Files\Java\jdk1.7.0_80\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\RSA SecurID Token Common;C:\Program Files\RSA SecurID Token Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Users\gewin\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;c:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\tibco\ems\8.5\bin;C:\Program Files (x86)\dotnet\;C:\Program Files\dotnet\;C:\Program Files (x86)\dotnet\sdk;C:\Program Files\dotnet\sdk;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Java\jdk-11.0.5\bin;C:\Program Files\apache-maven-3.6.3\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files\PuTTY\;C:\Program Files\RSA SecurID Token Common\;C:\Users\gewin\.dotnet\tools;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.3\bin;;., env.NUMBER_OF_PROCESSORS=4, java.vendor.url=http://java.oracle.com/, env.COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files, env.PSMODULEPATH=C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules, env.CLASSWORLDS_LAUNCHER=org.codehaus.plexus.classworlds.launcher.Launcher, env.MAVEN_CMD_LINE_ARGS=-Dhttps.protocols=TLSv1,TLSv1.1,TLSv1.2 compile -X --log-file compile-output.txt, java.vm.vendor=Oracle Corporation, maven.home=C:\Program Files\apache-maven-3.6.3\bin\.., java.runtime.name=Java(TM) SE Runtime Environment, sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher -Dhttps.protocols=TLSv1,TLSv1.1,TLSv1.2 compile -X --log-file compile-output.txt, java.class.path=C:\Program Files\apache-maven-3.6.3\bin\..\boot\plexus-classworlds-2.6.0.jar, env.INTELLIJ IDEA COMMUNITY EDITION=C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.3\bin;, env.PROGRAMW6432=C:\Program Files, env.VSSDK140INSTALL=C:\Program Files (x86)\Microsoft Visual Studio 14.0\VSSDK\, maven.version=3.6.3, env.PROGRAMFILES(X86)=C:\Program Files (x86), java.vm.specification.name=Java Virtual Machine Specification, env.NPHASE_LOG_LEVEL=DEBUG, env.LOGONSERVER=\\DESKTOP-PT9DF4T, env.NPHASE_COMMON_DOTNET=C:\CodeBase\5.21.0\win\common\, java.vm.specification.version=1.7, env.PROCESSOR_ARCHITECTURE=AMD64, env.COMMONPROGRAMW6432=C:\Program Files\Common Files, sun.cpu.endian=little, sun.os.patch.level=, java.io.tmpdir=C:\Users\gewin\AppData\Local\Temp\, env.PROCESSOR_REVISION=4601, env.VS120COMNTOOLS=C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\Tools\, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, maven.multiModuleProjectDirectory=C:\Users\gewin\Desktop\SandBox\maven-multi-modules-basic\referred-from-webapp-basic, env.PROGRAMDATA=C:\ProgramData, env.COMSPEC=C:\WINDOWS\system32\cmd.exe, os.arch=amd64, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, java.ext.dirs=C:\Program Files\Java\jdk1.7.0_80\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext, env.NPHASE_COMMON_DOTNET2=C:\CodeBase\5.21.0\win\common\, user.dir=C:\Users\gewin\Desktop\SandBox\maven-multi-modules-basic\referred-from-webapp-basic, env.MAVEN_HOME=C:\Program Files\apache-maven-3.6.3\bin\.., env.LOCALAPPDATA=C:\Users\gewin\AppData\Local, line.separator=
+, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, env.CLASSWORLDS_JAR="C:\Program Files\apache-maven-3.6.3\bin\..\boot\plexus-classworlds-2.6.0.jar", env.PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, env.ERROR_CODE=0, env.USERNAME=gewin, file.encoding=Cp1252, env.NPHASE_COMMON_CONFIG_DIR=C:\CodeBase\5.21.0\win\common\configuration, env.VS100COMNTOOLS=C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\Tools\, env.USERDOMAIN=DESKTOP-PT9DF4T, java.specification.version=1.7, env.=C:=C:\Users\gewin\Desktop\SandBox\maven-multi-modules-basic\referred-from-webapp-basic, env.PROCESSOR_LEVEL=6, env.MAVEN_PROJECTBASEDIR=C:\Users\gewin\Desktop\SandBox\maven-multi-modules-basic\referred-from-webapp-basic}
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[DEBUG] resource with targetPath null
+directory C:\Users\gewin\Desktop\SandBox\maven-multi-modules-basic\referred-from-webapp-basic\src\main\resources
+excludes []
+includes []
+[DEBUG] ignoreDelta true
+[INFO] Copying 0 resource
+[DEBUG] no use filter components
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ referred-from-webapp-basic ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=457000, ConflictMarker.markTime=333900, ConflictMarker.nodeCount=160, ConflictIdSorter.graphTime=292200, ConflictIdSorter.topsortTime=59200, ConflictIdSorter.conflictIdCount=43, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=4848500, ConflictResolver.conflictItemCount=63, DefaultDependencyCollector.collectTime=315598100, DefaultDependencyCollector.transformTime=6053600}
+[DEBUG] org.apache.maven.plugins:maven-compiler-plugin:jar:3.1
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.9:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.0.9:compile
+[DEBUG]       org.codehaus.plexus:plexus-utils:jar:1.5.1:compile
+[DEBUG]    org.apache.maven:maven-core:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-model:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-error-diagnostics:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-project:jar:2.0.9:compile
+[DEBUG]          org.apache.maven:maven-plugin-registry:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-plugin-descriptor:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-artifact-manager:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-monitor:jar:2.0.9:compile
+[DEBUG]    org.apache.maven:maven-toolchain:jar:1.0:compile
+[DEBUG]    org.apache.maven.shared:maven-shared-utils:jar:0.1:compile
+[DEBUG]       com.google.code.findbugs:jsr305:jar:2.0.1:compile
+[DEBUG]    org.apache.maven.shared:maven-shared-incremental:jar:1.1:compile
+[DEBUG]       org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:compile (version managed from default)
+[DEBUG]    org.codehaus.plexus:plexus-compiler-api:jar:2.2:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-manager:jar:2.2:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-javac:jar:2.2:runtime
+[DEBUG]    org.codehaus.plexus:plexus-container-default:jar:1.5.5:compile
+[DEBUG]       org.codehaus.plexus:plexus-classworlds:jar:2.2.2:compile
+[DEBUG]       org.apache.xbean:xbean-reflect:jar:3.4:compile
+[DEBUG]          log4j:log4j:jar:1.2.12:compile
+[DEBUG]          commons-logging:commons-logging-api:jar:1.1:compile
+[DEBUG]       com.google.collections:google-collections:jar:1.0:compile
+[DEBUG]       junit:junit:jar:3.8.2:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.1
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.1
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.1
+[DEBUG]   Included: org.apache.maven.plugins:maven-compiler-plugin:jar:3.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:1.5.1
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-utils:jar:0.1
+[DEBUG]   Included: com.google.code.findbugs:jsr305:jar:2.0.1
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-incremental:jar:1.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-component-annotations:jar:1.5.5
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-api:jar:2.2
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-manager:jar:2.2
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-javac:jar:2.2
+[DEBUG]   Included: org.apache.xbean:xbean-reflect:jar:3.4
+[DEBUG]   Included: log4j:log4j:jar:1.2.12
+[DEBUG]   Included: commons-logging:commons-logging-api:jar:1.1
+[DEBUG]   Included: com.google.collections:google-collections:jar:1.0
+[DEBUG]   Included: junit:junit:jar:3.8.2
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-compiler-plugin:3.1:compile from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-compiler-plugin:3.1, parent: sun.misc.Launcher$AppClassLoader@3301f287]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-compiler-plugin:3.1:compile' with basic configurator -->
+[DEBUG]   (f) basedir = C:\Users\gewin\Desktop\SandBox\maven-multi-modules-basic\referred-from-webapp-basic
+[DEBUG]   (f) buildDirectory = C:\Users\gewin\Desktop\SandBox\maven-multi-modules-basic\referred-from-webapp-basic\target
+[DEBUG]   (f) classpathElements = [C:\Users\gewin\Desktop\SandBox\maven-multi-modules-basic\referred-from-webapp-basic\target\classes, C:\Users\gewin\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar]
+[DEBUG]   (f) compileSourceRoots = [C:\Users\gewin\Desktop\SandBox\maven-multi-modules-basic\referred-from-webapp-basic\src\main\java]
+[DEBUG]   (f) compilerId = javac
+[DEBUG]   (f) debug = true
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) forceJavacCompilerUse = false
+[DEBUG]   (f) fork = false
+[DEBUG]   (f) generatedSourcesDirectory = C:\Users\gewin\Desktop\SandBox\maven-multi-modules-basic\referred-from-webapp-basic\target\generated-sources\annotations
+[DEBUG]   (f) mojoExecution = org.apache.maven.plugins:maven-compiler-plugin:3.1:compile {execution: default-compile}
+[DEBUG]   (f) optimize = false
+[DEBUG]   (f) outputDirectory = C:\Users\gewin\Desktop\SandBox\maven-multi-modules-basic\referred-from-webapp-basic\target\classes
+[DEBUG]   (f) projectArtifact = com.maven.lab:referred-from-webapp-basic:jar:1.0-SNAPSHOT
+[DEBUG]   (f) showDeprecation = false
+[DEBUG]   (f) showWarnings = false
+[DEBUG]   (f) skipMultiThreadWarning = false
+[DEBUG]   (f) source = 1.5
+[DEBUG]   (f) staleMillis = 0
+[DEBUG]   (f) target = 1.5
+[DEBUG]   (f) useIncrementalCompilation = true
+[DEBUG]   (f) verbose = false
+[DEBUG]   (f) mavenSession = org.apache.maven.execution.MavenSession@72afc3e8
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@72afc3e8
+[DEBUG] -- end configuration --
+[DEBUG] Using compiler 'javac'.
+[DEBUG] Source directories: [C:\Users\gewin\Desktop\SandBox\maven-multi-modules-basic\referred-from-webapp-basic\src\main\java]
+[DEBUG] Classpath: [C:\Users\gewin\Desktop\SandBox\maven-multi-modules-basic\referred-from-webapp-basic\target\classes
+ C:\Users\gewin\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar]
+[DEBUG] Output directory: C:\Users\gewin\Desktop\SandBox\maven-multi-modules-basic\referred-from-webapp-basic\target\classes
+[DEBUG] CompilerReuseStrategy: reuseCreated
+[DEBUG] useIncrementalCompilation enabled
+[INFO] Nothing to compile - all classes are up to date
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.046 s
+[INFO] Finished at: 2020-01-01T18:42:25-08:00
+[INFO] ------------------------------------------------------------------------
